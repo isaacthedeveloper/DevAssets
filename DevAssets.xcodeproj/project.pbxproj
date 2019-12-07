@@ -13,6 +13,12 @@
 		730FDD1723997A02000E5077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FDD1523997A02000E5077 /* Main.storyboard */; };
 		730FDD1923997A03000E5077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730FDD1823997A03000E5077 /* Assets.xcassets */; };
 		730FDD1C23997A03000E5077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FDD1A23997A03000E5077 /* LaunchScreen.storyboard */; };
+		730FDD2423997A27000E5077 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FDD2323997A27000E5077 /* DemoURLs.swift */; };
+		730FDD2623997A2B000E5077 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FDD2523997A2B000E5077 /* Grid.swift */; };
+		730FDD2823997A2E000E5077 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FDD2723997A2E000E5077 /* ImageFetcher.swift */; };
+		730FDD2A23997A31000E5077 /* UIImage+Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FDD2923997A31000E5077 /* UIImage+Downloader.swift */; };
+		730FDD2C23997A35000E5077 /* URL+AddQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FDD2B23997A35000E5077 /* URL+AddQueries.swift */; };
+		730FDD2E23997A39000E5077 /* VCLLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FDD2D23997A39000E5077 /* VCLLoggingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		730FDD1823997A03000E5077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		730FDD1B23997A03000E5077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		730FDD1D23997A03000E5077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730FDD2323997A27000E5077 /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		730FDD2523997A2B000E5077 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		730FDD2723997A2E000E5077 /* ImageFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		730FDD2923997A31000E5077 /* UIImage+Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Downloader.swift"; sourceTree = "<group>"; };
+		730FDD2B23997A35000E5077 /* URL+AddQueries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+AddQueries.swift"; sourceTree = "<group>"; };
+		730FDD2D23997A39000E5077 /* VCLLoggingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLLoggingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			children = (
 				730FDD0F23997A02000E5077 /* AppDelegate.swift */,
 				730FDD1123997A02000E5077 /* SceneDelegate.swift */,
+				730FDD2323997A27000E5077 /* DemoURLs.swift */,
+				730FDD2523997A2B000E5077 /* Grid.swift */,
+				730FDD2923997A31000E5077 /* UIImage+Downloader.swift */,
+				730FDD2D23997A39000E5077 /* VCLLoggingViewController.swift */,
+				730FDD2B23997A35000E5077 /* URL+AddQueries.swift */,
+				730FDD2723997A2E000E5077 /* ImageFetcher.swift */,
 				730FDD1323997A02000E5077 /* ViewController.swift */,
 				730FDD1523997A02000E5077 /* Main.storyboard */,
 				730FDD1823997A03000E5077 /* Assets.xcassets */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730FDD2423997A27000E5077 /* DemoURLs.swift in Sources */,
 				730FDD1423997A02000E5077 /* ViewController.swift in Sources */,
 				730FDD1023997A02000E5077 /* AppDelegate.swift in Sources */,
+				730FDD2A23997A31000E5077 /* UIImage+Downloader.swift in Sources */,
+				730FDD2C23997A35000E5077 /* URL+AddQueries.swift in Sources */,
+				730FDD2823997A2E000E5077 /* ImageFetcher.swift in Sources */,
+				730FDD2E23997A39000E5077 /* VCLLoggingViewController.swift in Sources */,
+				730FDD2623997A2B000E5077 /* Grid.swift in Sources */,
 				730FDD1223997A02000E5077 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
